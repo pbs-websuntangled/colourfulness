@@ -6,6 +6,7 @@
 # Inspired by and using the colourfullness calculation from Adrian at pyImageSearch 
 # in response to the blog article 
 
+
 def roiColourfulness(roi):
 	# split the roi into its respective RGB components
 	(B, G, R) = cv2.split(roi.astype("float"))
